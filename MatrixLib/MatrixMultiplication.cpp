@@ -1,10 +1,9 @@
 #include <iostream>
 #include "stdafx.h"
+#include "MatrixLib.h"
 using namespace std;
 
-int firstMatrix[10][10], secondMatrix[10][10], mult[10][10], rowFirst, columnFirst, rowSecond, columnSecond;
-
-void multiplyMatrices(){
+void multiplyMatrices(firstMatrix[10][10], secondMatrix[10][10], mult[10][10], rowFirst, columnFirst, rowSecond, columnSecond){
 
 	cout << "Enter rows and column for first matrix: ";
 	cin >> rowFirst >> columnFirst;
@@ -43,8 +42,8 @@ void multiplyMatrices(){
 			cin >> secondMatrix[i][j];
 		}
 	}
-     
-   
+
+
    	int p, q, r;
 
 	// Initializing elements of matrix mult to 0.
@@ -81,6 +80,4 @@ void multiplyMatrices(){
 	}
 
 
-}
-
-
+}}

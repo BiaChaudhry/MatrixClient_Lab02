@@ -18,6 +18,6 @@ namespace MatrixLib {
 
 			void Subtract(int matrix1[10][10], int matrix2[10][10], int row, int col);
 
-			void Transpose(int arr[10][10], int row, int col);
+			void multiplyMatrices(firstMatrix[10][10], secondMatrix[10][10], mult[10][10], rowFirst, columnFirst, rowSecond, columnSecond);
 
 }
